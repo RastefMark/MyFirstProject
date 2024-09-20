@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="norm.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<div>
+    <div class="all">
+        <div class="header">
+            <div class="header1">
+                <div class="nazv">
+                    <img  class="logo" src="images/logo.svg" alt="">FromBoard Delivery
+                </div>
+                <div class="nomer">
+                    <div class="text">
+                        Доставляем товары из заграницы в Россию<br>
+                        Стоимость от 550 рублей<br>
+                        1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽
+                    </div>
+                    <div class="samnom">
+                        <p class="samsamnom">+7 (123) 123 12-34</p>
+                        <p class="bukvy">Звонки по России бесплатны</p>
+                    </div>
+                </div>
+                <div class="naprav">
+                    <b class="about"><a href="#kalc">Калькулятор</a></b>
+                    <b class ="about"> <a href="#onas">О нас</a></b>
+                    <b class ="about"> <a href="#garant">Гарантии</a></b>
+                    <b class ="about"> <a href="#otz">Отзывы</a></b>
+                </div>
+                <div>
+                    <button class="zayavka">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+        <div class="pred_main">
+            <div class="main">
+                <div class="hero">
+                    <div class="noproblem">
+                        <div class="np">
+                            <b class="bolsh">Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</b><br>
+                            <b class="mensh">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России</b>
+                        </div><br>
+                        <img src="images/box.png" alt="" class="box">
+                    </div>
+                    <div class="kalculya">
+                        <div class="kalculya_txt">
+                            <b class="calc_txt" id="kalc">Калькулятор доставки</b><br>
+                            <b class="calc_txt1" >Посчитайте, сколько будет стоить перевозка покупки из зарубежа</b>
+                        </div><br>
+                        <div class="calc_form">
+                            <form action="">
+                            <input class="imya" type="text" placeholder="Имя" required><br><br>
+                            <input class="pocht" type="text" placeholder="Почта" required  minlength="10" id="email">
+                            <input class="tel" type="text" placeholder="Телефон" required><br><br>
+                            <input class="pocht" type="text" placeholder="Общая площадь, м²" id="plosh" required> 
+                            <input class="tel" type="text" placeholder="Вес, кг" required id="kg"><br><br>
+                            <input class="pocht" type="text" placeholder="Страна покупки" required>
+                            <input class="tel" type="text" placeholder="Город покупки" required><br><br>
+                            <input class="pocht" type="text" placeholder="Область доставки" required>
+                            <input class="tel" type="text" placeholder="Город доставки" required>
+                            <br><br>
+                            <button class="raschet" onclick="fun()">Заказать рассчёт</button><br><br>
+                            <b class="hide soobsh" id="hide">Успешно! Проверьте свою почту.
+                                <div class="krest" onclick="skr()">
+                                    ❌
+                                </div>
+                            </b>
+                            
+                            </body>
+                            </form>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits">
+                    <div class="preim_txt" id="onas">Наши преимущества</div>
+                    <br>
+                    <div>
+                        <div class="preim1">
+                            <img src="images/box1.svg" alt="" class="img1">
+                            <div class="podgruz1">
+                                <b class="gruz">Растоможка груза</b><br>
+                                <b class="mal_gruz">Мы берем на себя все формальности и бумажную волокиту, связанную с растоможкой груза</b>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/box2.svg" alt="" class="img2">
+                            <div class="podgruz2">
+                                <b class="gruz">Надежная упаковка</b><br>
+                                <b class="mal_gruz">Все товары упаковываются нашими специалистами с особым вниманием к деталям, гарантируя, что они дойдут в безопасности и в отличном состоянии</b>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/box3.svg" alt="" class="img3">
+                            <div class="podgruz3">
+                                <b class="gruz">Быстро и выгодно</b><br>
+                                <b class="mal_gruz">Мы предлагаем быструю и выгодную доставку, чтобы вы могли насладиться покупками как можно скорее.</b>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/box4.svg" alt="" class="img4">
+                            <div class="podgruz4">
+                                <b class="gruz">Удобный сервис</b><br>
+                                <b class="mal_gruz">Стремимся сделать процесс доставки максимально удобным для вас, чтобы опыт остался приятным и беззаботным</b>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/box5.svg" alt="" class="img5">
+                            <div class="podgruz5">
+                                <b class="gruz">Прозрачность работы</b><br>
+                                <b class="mal_gruz">Мы предоставляем полный контроль над каждым этапом доставки, от момента заказа до момента прибытия заказа</b>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/box6 (1).svg" alt="" class="img6">
+                            <div class="podgruz6">
+                                <b class="gruz">Страхование груза</b><br>
+                                <b class="mal_gruz">Наше страхование обеспечивает полную защиту и покрытие почти все неприятные и неожиданные ситуации</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="garants">
+                    <div class="garants_txt">
+                        <b class="preim_txt" id="garant">Гарантии качества</b><br>
+                        <b class="garants_pre_txt">Наши гарантии качества включают в себя полный спектр документов, необходимых для ввоза и вывоза товаров, а также для успешного бизнеса на мировом рынке. Мы предоставляем вам надёжность и уверенность</b><br>
+                    </div><br><br>
+                    <div class="documents">
+                        <img src="images/doc1.png" alt="" class="doc">
+                        <img src="images/doc2.png" alt="" class="doc">
+                        <img src="images/doc3.png" alt="" class="doc">
+                        <img src="images/doc4.png" alt="" class="doc"><br><br>
+                    </div>
+                    <div class="txt_pod_doc">
+                        <b class="txt_pod_docs1">Свидетельство о регистрации в РФ</b>
+                        <b class="txt_pod_docs2">Свидетельство о регистрации в США</b>
+                        <b class="txt_pod_docs3">Свидетельство о регистрации в Китае</b>
+                        <b class="txt_pod_docs4">Свидетельство о регистрации в Великобритании</b>
+                    </div><br><br><br><br>
+                </div>
+                <div class="otz">
+                    <div class="otz_text">
+                        <b class="preim_txt" id="otz">Отзывы</b><br><br>
+                    </div>
+                    <div class="sami_otz">
+                        <div class="otz1">
+                            <b class="otz_txt">Я заказала последний iPhone из США через ваш сервис, доставка прошла быстро и без каких-либо проблем. Гарантии качества и надежная упаковка сделали мой опыт покупки невероятно позитивным.</b><br>
+                            <b class="otz_txt_imya">Анна</b>
+                            <img src="images/quotes.svg" alt="" class="otz_img1">
+                        </div>
+                        <div class="otz2">
+                            <b class="otz_txt">Я уже несколько лет заказываю дизайнерскую одежду из Франции через ваш сервис, и он никогда меня не подводил. Важно иметь надёжную компанию, которая позаботится о вашем заказе и предоставит все необходимые документы для ввоза в Россию</b><br>
+                            <b class="otz_txt_imya2">Алексей</b>
+                            <img src="images/quotes.svg" alt="" class="otz_img2">
+                        </div><br><br>
+                        <button class="otz_knopka" onclick="top()">Больше отзывов</button>
+                        <div class="soobsh2 hide2">
+                            <b >Отзывов временно нету...</b>
+                            <b class="krest2" onclick="skr2()">❌</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img  class="logo" src="images/logo.svg" alt=""><b class="footer_logo">FromBoard Delivery</b>
+            <b class="prava">Ни одно право не защищено копируйте сколько влезет!</b>
+            <b class="verstal">Верстал макет Шинкевич Марк</b>
+        </div>
+    </div>
+    <script>
+        function fun(){
+            
+          var error = 0;
+          let login = document.getElementById("name");
+          let email = document.getElementById("email");
+          let password = document.getElementById("password"); 
+          if(email.value.indexOf("@") == -1){
+              alert("Неверный формат email");
+              error = 1;
+          }
+          if(error==0){
+            let elem = document.getElementById('hide')
+            elem.classList.remove("hide")
+            elem.classList.add("see")
+            
+          } 
+        }
+        function skr(){
+            let elem = document.getElementById('hide')
+            elem.classList.remove("see")
+            elem.classList.add("hide")
+        }
+        function skr2(){
+            let elem = document.getElementById('hide2')
+            elem.classList.remove("see2")
+            elem.classList.add("hide2")
+        }
+        function top(){
+            alert("Ошибка. Больше отзывов нету...")
+        }
+        
+      </script>
+</body>
+</html>

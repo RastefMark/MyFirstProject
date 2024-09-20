@@ -1,0 +1,699 @@
+.header{
+    width: 100%;
+    height: 110px;
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+.header1{
+    width: 90%;
+    height: 70px;
+    background: white;
+    position: relative;
+    left: 5%;
+    top: 15%;
+}
+.nazv{
+    width: 30%;
+    height:30px;
+    position: relative;
+    top:15px;
+    left:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.nomer{
+    width: 40%;
+    height:40px;
+    background: white;
+    position: relative;
+    left:50%;
+    top: -25px;
+}
+.text{
+    width: 40%;
+    height: 40px;
+    background: white;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 9.8px;
+    text-align: justify;
+    font-weight: 400;
+    word-spacing: -0.5px;
+    margin: 0%;
+    padding: 0%;
+    left: 35%;
+    top: 1.8em;
+}
+.samnom{
+    width: 50%;
+    height: 40px;
+    background:white;
+    position: relative;
+    left: 70%;
+    top: -40px;
+
+   
+}
+.samsamnom{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+.bukvy{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.naprav{
+    width: 30%;
+    height: 20px;
+    position: relative;
+    top: -30%;
+    left: 2%;
+    word-spacing: 2px;
+}
+.about{
+    font-size: 70%;
+    position: relative;
+    top: 1em;
+}
+.about:hover{
+    color: mediumpurple;
+    text-decoration: underline;
+}
+.all{
+    background: #E5E7EB;
+    height: 100%;
+    height: 100%;
+}
+.pred_main{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(244, 243, 243);
+    height: 80%;
+    width: 100%;
+}
+.main{
+    height: 110em;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    background: rgb(244, 243, 243);
+    
+}
+.hero{
+    height: 32em;
+}
+.noproblem{
+    width: 45%;
+    position: relative;
+    top: 2.1em;
+}
+.bolsh{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.mensh{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.kalculya{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 55%;
+    top: -23.5em;
+    background: white;
+    border-radius: 10px;
+    height: 80%;
+}
+.calc_txt{
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+
+}
+.calc_txt1{
+    font-size: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+}
+.kalculya_txt{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 1em;
+}
+.imya{
+    width: 78.5%;
+    height: 2em;
+    position: relative;
+}
+.imya:hover{
+    color: mediumpurple;
+}
+.pocht{
+    width: 35%;
+    position: relative;
+    left: -3.5%;
+    height: 2em;
+}
+.pocht:hover{
+    color: mediumpurple;
+}
+.tel{
+    width: 35%;
+    position: relative;
+    left: 3.5%;
+    height: 2em;
+}
+.tel:hover{
+    color: mediumpurple;
+}
+.raschet{
+    background-color: mediumpurple;
+    color: white;
+    border-radius: 4px;
+    width: 80%;
+    border: mediumpurple;
+    position: relative;
+    top: 1em;
+}
+.raschet:hover{
+    color: black;
+}
+.logo{
+    width: 10%;
+    height: 90%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.zayavka{
+    background-color: mediumpurple;
+    color: white;
+    border-radius: 4px;
+    width: 15%;
+    height: 1.5em;
+    border: mediumpurple;
+    position: relative;
+    left: 78%;
+    top: -2.5em;
+}
+.zayavka:hover{
+    color: black;
+}
+.benefits{
+    width: 100%;
+    height: 27em;
+}
+.preim_txt{
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-size: 160%
+}
+.gruz{
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-size: 110%
+}
+.mal_gruz{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 70%;
+}
+.podgruz1{
+    position: relative;
+    left: 10%;
+    top: -6em;
+    width: 13%;
+}
+.podgruz2{
+    position: relative;
+    left: 45%;
+    top: -19em;
+    width: 13%;
+}
+.podgruz3{
+    position: relative;
+    left: 80%;
+    top: -29.5em;
+    width: 13%;
+}
+.podgruz4{
+    position: relative;
+    left: 10%;
+    top: -30em;
+    width: 13%;
+}
+.podgruz5{
+    position: relative;
+    left: 45%;
+    top: -41em;
+    width: 13%;
+}
+.podgruz6{
+    position: relative;
+    left: 80%;
+    top: -52.5em;
+    width: 13%;
+}
+.img2{
+    position: relative;
+    left: 35%;
+    top: -12.5em;
+}
+.img3{
+    position: relative;
+    left: 70%;
+    top: -24.5em;
+}
+.img4{
+    position: relative;
+    top: -23em;
+}
+.img5{
+    position: relative;
+    left: 35%;
+    top: -35em;
+}
+.img6{
+    position: relative;
+    left: 70%;
+    top: -46.5em;
+}
+.garants{
+    width: 90%;
+    text-align: center;
+}
+.garants_txt{
+    position: relative;
+    left: 36%;
+    width: 38%;
+}
+.garants_pre_txt{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    position: relative;
+}
+.documents{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+.doc{
+    width: 24%;
+    transition: 1s;
+}
+.doc:hover{
+    transform: scale(1.2)
+}
+.txt_pod_doc{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+}
+.txt_pod_docs1{
+    position: relative;
+    right: 0.5%;
+}
+.txt_pod_docs2{
+    position: relative;
+    left: 5.5%;
+
+}
+.txt_pod_docs3{
+    position: relative;
+    left: 11%;
+
+}
+.txt_pod_docs4{
+    position: relative;
+    left: 14%;
+}
+.otz_text{
+    width: 10%;
+    position: relative;
+    left: 46%;
+}
+.otz1{
+    width: 45%;
+    background: white;
+    border-radius: 4px;
+    height: 20%;
+}
+.otz2{
+    width: 45%;
+    background: white;
+    border-radius: 4px;
+    height: 20%;
+    position: relative;
+    left: 50%;
+    top: -8.9em;
+}
+.otz_txt{
+    text-align: left;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 110%;
+    position: relative;
+    left: 2%;
+    top: 1em;
+}
+.sami_otz{
+    position: relative;
+    left: 1.5%;
+}
+.otz_txt_imya{
+    color: mediumpurple;
+    position: relative;
+    left: 3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+}.otz_txt_imya2{
+    color: mediumpurple;
+    position: relative;
+    left: 3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+}
+.otz_img1{
+    position: relative;
+    left: 80%;
+    top: -1em;
+}
+.otz_img2{
+    position: relative;
+    left: 80%;
+    top: -0.5em;
+}
+.otz_knopka{
+    background-color: mediumpurple;
+    color: white;
+    border-radius: 4px;
+    width: 15%;
+    height: 2em;
+    border: mediumpurple;
+    position: relative;
+    left: 40%;
+    top: -11em;
+}
+.otz_knopka:hover{
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 10em;
+    background: black;
+}
+.footer_logo{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 130%;
+    position: relative;
+    top: -40%;
+    right: 2%;
+}
+.prava{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 60%;
+    position: relative;
+    right: 12%;
+    top: -20%;
+}
+.verstal{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 60%;
+    position: relative;
+    right: 23%;
+    top: -10%;
+}
+@media all and (max-width: 1586px){
+    .garants{
+        position: relative;
+        top: 2.5em;
+    }
+    .text{
+        position: relative;
+        left: 1em;
+    }
+}
+@media all and (max-width: 1500px){
+    .garants{
+        position: relative;
+        top: 3em;
+    }
+}
+@media all and (max-width: 1444px){
+    .otz{
+        position: relative;
+        top: 2em;
+    }
+    .garants{
+        position: relative;
+        top: 5em;
+    }
+}
+@media all and (max-width: 1415px){
+    .garants{
+        top: 7em;
+    }
+    .footer{
+        position: relative;
+        top: 5em;
+    }
+    .otz{
+        top: 7em;
+    }
+    .hero{
+        position: relative;
+        top: 2em;
+        
+    }
+}
+@media all and (max-width: 1333px){
+    .garants{
+        top: 9em;
+    }
+}
+@media all and (max-width: 1304px){
+    .garants{
+        top: 11em;
+    }
+}
+@media all and (max-width: 1233px){
+    .garants{
+        top: 6em;
+    }
+    .footer{
+        position: relative;
+        top: 4em;
+    }
+    .otz{
+        top: 6em;
+    }
+    .hero{
+        position: relative;
+        top: 4em;
+        
+    }
+    .podgruz2{
+        top: -22em;
+    }
+    .podgruz3{
+        top: -38em;
+    }
+    .img3{
+        top: -30em;
+    }
+    .podgruz4{
+        top: -40em;
+    }
+    .img4{
+        top: -32em;
+    }
+    .podgruz5{
+        top: -55em;
+    }
+    .img5{
+        top: -48em;
+    }
+    .podgruz6{
+        top: -70em;
+    }
+    .img6{
+        top: -63em;
+    }
+    .bukvy{
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 1000px){
+    .garants{
+        top: 9em;
+    }
+    .footer{
+        top: 7em;
+    }
+}
+@media all and (max-width: 980px){
+    .noproblem{
+        left: 30%;
+        top: -2em;
+    }
+    .kalculya{
+        top: 1em;
+        left: 15em;
+    }
+    .benefits{
+        position: relative;
+        top: 20em;
+    }
+    .podgruz1{
+        position: relative;
+        left: 28em;
+    }
+    .img1{
+        position: relative;
+        left: 20em;
+        top: 2em;
+    }
+    .garants{
+        top: 80em;
+    }
+    .podgruz2{
+        top: -10em;
+        left: 28em;
+    }
+    .img2{
+    top: 1em;
+    left: 20em;
+    }
+    .podgruz3{
+        position: relative;
+        left: 52%;
+        top: -13em;
+    }
+    .img3{
+        top: -5em;
+        left: 18em;
+    }
+    .podgruz4{
+        top: -18em;
+        left: 27em;
+    }
+    .img4{
+        top: -8em;
+        left: 18em;
+    }
+    .podgruz5{
+        top: -20em;
+        left: 27em;
+    }
+    .img5{
+        top: -13em;
+    }
+    .podgruz6{
+        top: -25em;
+        left: 27em;
+    }
+    .img6{
+        top: -16em;
+        left: 18em;
+    }
+    .footer{
+        top: 10em;
+    }
+    .otz{
+        top: 80em;
+    }
+    .main{
+        height: 180em;
+    }
+    .otz1{
+        position: relative;
+        top: 2.3em;
+    }
+    .otz2{
+        height:180px;
+    }
+    .otz_txt_imya2{
+        top: -2.5em;
+    }
+}
+.hide {
+    display: none;
+    font-size: 30px;
+    position: relative;
+}
+  
+.see{
+    display: block;
+    font-size: 15px;
+    position: relative;
+}
+.soobsh{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 2em;
+    font-size: 40px;
+    background-color: mediumpurple;
+    color: azure;
+    right: 55%;
+    top: -5em;
+    border-radius: 4px;
+}
+.krest{
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    position: relative;
+    left: 96%;
+    top: -1.8em;
+    width: 3%;
+}
+.soobsh2{
+    text-align: center;
+    position: relative;
+    width: 60%;
+    height: 2em;
+    font-size: 40px;
+    background-color: mediumpurple;
+    color: azure;
+    border-radius: 4px;
+    top: -9em;
+    left: 16%;
+}
+.krest2{
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    position: relative;
+    width: 3%;
+    top: -0.5em;
+    left: 13em;
+}
+.see2{
+    display: block;
+    font-size: 15px;
+    position: relative;
+}
+
+
+
