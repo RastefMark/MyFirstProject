@@ -35,8 +35,18 @@
                     <b class ="about"> <a href="#otz">Отзывы</a></b>
                 </div>
                 <div>
-                    <button class="zayavka">Оставить заявку</button>
+                    <button class="zayavka" onclick="pokaz()">Оставить заявку</button>
+                    
                 </div>
+            </div>
+            <div class="zayavka_form hide" id="zayv_form">
+                
+                <input type="text" placeholder="Имя" required id="naimz"><br><br>
+                <input type="text" placeholder="Номер телефона" required id="nomerz"><br><br>
+                <input type="text" placeholder="Почта" required id="emailz"><br><br>
+                <button class="otpr" onclick="funz()">Отправить</button><br>
+                <b class="krestz" onclick="skrz()">❌</b>
+                <b id="uspex" class="uspex hideus">Успешно!</b>
             </div>
         </div>
         <div class="pred_main">
@@ -160,8 +170,8 @@
                             <b class="otz_txt_imya2">Алексей</b>
                             <img src="images/quotes.svg" alt="" class="otz_img2">
                         </div><br><br>
-                        <button class="otz_knopka" onclick="top()">Больше отзывов</button>
-                        <div class="soobsh2 hide2">
+                        <button class="otz_knopka" onclick="fun2()">Больше отзывов</button>
+                        <div class="soobsh2 hide2" id="top">
                             <b >Отзывов временно нету...</b>
                             <b class="krest2" onclick="skr2()">❌</b>
                         </div>
@@ -193,19 +203,49 @@
             
           } 
         }
+        function fun2(){
+            let elements = document.getElementById('top')
+            elements.classList.add("see2")
+            element.classList.remove("hide2")
+            
+        }
+        function pokaz(){
+            let elements = document.getElementById('zayv_form')
+            elements.classList.add("see")
+            element.classList.remove("hide")
+            
+        }
+        function funz(){
+            var errorz = 0;
+            let login = document.getElementById("namez");
+            let email = document.getElementById("emailz");
+            let nomer = document.getElementById("nomerz"); 
+            if(email.value.indexOf("@") == -1){
+                alert("Неверный формат email");
+                errorz = 1;
+            }
+            if(errorz==0){
+              let uspesh = document.getElementById("uspex")
+              uspesh.classList.remove("hideus")
+              uspesh.classList.add("seeus")
+            } 
+          }
         function skr(){
             let elem = document.getElementById('hide')
             elem.classList.remove("see")
             elem.classList.add("hide")
         }
         function skr2(){
-            let elem = document.getElementById('hide2')
+            let elem = document.getElementById('top')
             elem.classList.remove("see2")
             elem.classList.add("hide2")
         }
-        function top(){
-            alert("Ошибка. Больше отзывов нету...")
+        function skrz(){
+            let elem = document.getElementById('zayv_form')
+            elem.classList.remove("see")
+            elem.classList.add("hide")
         }
+        
         
       </script>
 </body>

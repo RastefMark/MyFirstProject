@@ -641,8 +641,15 @@
     font-size: 30px;
     position: relative;
 }
-  
+.hide2 {
+    display: none;
+    position: relative;
+}
 .see{
+    display: block;
+    position: relative;
+}
+.see2{
     display: block;
     font-size: 15px;
     position: relative;
@@ -672,12 +679,12 @@
     text-align: center;
     position: relative;
     width: 60%;
-    height: 2em;
-    font-size: 40px;
+    height: 3em;
+    font-size: 60px;
     background-color: mediumpurple;
     color: azure;
     border-radius: 4px;
-    top: -9em;
+    top: -20em;
     left: 16%;
 }
 .krest2{
@@ -686,14 +693,54 @@
     font-size: 20px;
     position: relative;
     width: 3%;
-    top: -0.5em;
-    left: 13em;
+    top: 0;
+    left: 21em;
 }
 .see2{
     display: block;
     font-size: 15px;
     position: relative;
 }
-
+.zayavka_form{
+    background-color: white;
+    position: relative;
+    width: 50%;
+    top: 5em;
+    left: 25%;
+    text-align: center;
+    z-index: 190;
+}
+.otpr{
+    background-color: mediumpurple;
+    color: white;
+    border-radius: 4px;
+    width: 15%;
+    height: 1.5em;
+    border: mediumpurple;
+    position: relative;
+    bottom: 3px;
+}
+.otpr:hover{
+    color: black;
+}
+.uspex{
+    color: rgb(67, 255, 67);
+}
+.seeus{
+    display: block;
+    font-size: 15px;
+    position: relative;
+}
+.hideus {
+    display: none;
+    font-size: 30px;
+    position: relative;
+}
+.krestz{
+    position: relative;
+    top: -9em;
+    left: 15em;
+    cursor: pointer;
+}
 
 
